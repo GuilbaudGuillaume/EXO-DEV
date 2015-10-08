@@ -13,7 +13,6 @@ game.trasparent = true;
 function preload() {
 	game.load.image('background', "script/hulk/background/background.jpg");
 	game.load.image('hulk', "script/hulk/sprite/hulk.png", WIDTH, HEIGHT);
-	game.load.image('err404', "script/hulk/sprite_404/404.jpg");
 }
 function create() {
 	game.physics.startSystem(Phaser.Physics.ARCADE);
@@ -33,8 +32,7 @@ function create() {
 }
 function update() {
 	if (hulk.image.x === 0 + WIDTH) {
-		hulk.image.kill();
-		background.image = game.add.sprite(0, 0, "err404");
+		document.location.href = "page_4.php";
 	}
 	else {
 		if(countFrame < 30) {
