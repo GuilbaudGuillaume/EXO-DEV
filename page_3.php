@@ -8,7 +8,7 @@
 <body>
     <div id="content">
     </div>
-    <noscript><p>Votre Navigateur ne gère pas les script vous ne pouvez donc pas afficher rpg</p>
+    <noscript><p>Votre Navigateur ne gère pas les script vous ne pouvez donc pas afficher le jeu</p>
     </noscript>
 <script type="text/javascript" src="script/phaser-2.3.0/build/phaser.min.js"></script>
 <script type="text/javascript" src="script/hulk/Hulk.js"></script>
